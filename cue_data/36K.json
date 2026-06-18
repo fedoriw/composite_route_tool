@@ -1,0 +1,29 @@
+{
+  "route": "36K",
+  "title": "36K 2025 Firecracker Ride Yellow",
+  "total_miles": 20.8,
+  "entries": [
+    {"num": 1, "dist": 0.0, "note": "Start of route"},
+    {"num": 2, "dist": 0.5, "note": "R onto Green Oaks Parkway"},
+    {"num": 3, "dist": 0.9, "note": "L onto New Hill Road"},
+    {"num": 4, "dist": 3.7, "note": "R onto Friendship Road"},
+    {"num": 5, "dist": 6.0, "note": "L onto Old US 1 Highway"},
+    {"num": 6, "dist": 6.2, "note": "R onto Humie Olive Road"},
+    {"num": 7, "dist": 7.3, "note": "R onto Richardson Road"},
+    {"num": 8, "dist": 9.1, "note": "L onto Olive Chapel Road"},
+    {"num": 9, "dist": 10.4, "note": "R onto New Hill Olive Chapel Road, SR 1141"},
+    {"num": 10, "dist": 10.4, "note": "L"},
+    {"num": 11, "dist": 10.4, "note": "Rest Stop #3. Only rest stop on the 36K route.", "rest_stop": true, "rest_stop_label": "Rest Stop #3: Olive Chapel Baptist Church"},
+    {"num": 12, "dist": 10.5, "note": "L"},
+    {"num": 13, "dist": 10.5, "note": "L onto New Hill Olive Chapel Road, SR 1141"},
+    {"num": 14, "dist": 10.5, "note": "Sharp R onto Olive Chapel Road"},
+    {"num": 15, "dist": 11.8, "note": "R onto Richardson Road"},
+    {"num": 16, "dist": 13.6, "note": "L onto Humie Olive Road"},
+    {"num": 17, "dist": 14.6, "note": "L onto Old US 1 Highway"},
+    {"num": 18, "dist": 14.8, "note": "R onto Friendship Road"},
+    {"num": 19, "dist": 17.1, "note": "L onto New Hill Road"},
+    {"num": 20, "dist": 19.9, "note": "R onto Green Oaks Parkway"},
+    {"num": 21, "dist": 20.3, "note": "L onto Thomas Mill Road"},
+    {"num": 22, "dist": 20.8, "note": "End of route"}
+  ]
+}

@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+Pillow
+
+# Optional: street-map background (requires internet when generating map)
+# pip install contextily
+
+# Optional: SVG logo support (falls back to PNG if not installed)
+# pip install cairosvg
