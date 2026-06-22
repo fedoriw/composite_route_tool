@@ -1,0 +1,33 @@
+{
+  "route": "60K",
+  "title": "60K 2025 Firecracker Ride Orange",
+  "total_miles": 36.1,
+  "entries": [
+    {"num": 1, "dist": 0.0, "note": "Start of route"},
+    {"num": 2, "dist": 0.6, "note": "R onto Green Oaks Pkwy"},
+    {"num": 3, "dist": 0.9, "note": "L onto Holly Springs New Hill Rd/New Hill Rd"},
+    {"num": 4, "dist": 3.8, "note": "L onto Friendship Rd"},
+    {"num": 5, "dist": 5.2, "note": "L onto New Hill Holleman Rd"},
+    {"num": 6, "dist": 6.1, "note": "R onto Shearon Harris Rd"},
+    {"num": 7, "dist": 9.9, "note": "L onto U.S. Bicycle Rte 1"},
+    {"num": 8, "dist": 12.7, "note": "Rest Stop Ahead R"},
+    {"num": 9, "dist": 13.7, "note": "Rest Stop #2 Sky Mart", "rest_stop": true, "rest_stop_label": "Rest Stop #2: Sky Mart"},
+    {"num": 10, "dist": 14.0, "note": "R onto New Elam Church Rd"},
+    {"num": 11, "dist": 16.6, "note": "Continue onto Pea Ridge Rd"},
+    {"num": 12, "dist": 19.6, "note": "L onto Beaver Creek Rd"},
+    {"num": 13, "dist": 21.5, "note": "R onto Tody Goodwin Rd"},
+    {"num": 14, "dist": 23.9, "note": "L onto Olive Chapel Ext. Rd"},
+    {"num": 15, "dist": 24.7, "note": "Rest Stop Ahead R"},
+    {"num": 16, "dist": 25.7, "note": "Rest Stop #3 Olive Chapel Baptist Church", "rest_stop": true, "rest_stop_label": "Rest Stop #3: Olive Chapel Baptist Church"},
+    {"num": 17, "dist": 25.7, "note": "R onto New Hill Olive Chapel Rd"},
+    {"num": 18, "dist": 25.7, "note": "L onto Olive Chapel Rd"},
+    {"num": 19, "dist": 27.0, "note": "R onto Richardson Rd"},
+    {"num": 20, "dist": 28.8, "note": "L onto Humie Olive Rd"},
+    {"num": 21, "dist": 29.8, "note": "L onto U.S. Bicycle Rte 1"},
+    {"num": 22, "dist": 30.0, "note": "R onto Friendship Rd"},
+    {"num": 23, "dist": 32.3, "note": "L onto Holly Springs New Hill Rd"},
+    {"num": 24, "dist": 35.1, "note": "R onto Green Oaks Pkwy"},
+    {"num": 25, "dist": 35.5, "note": "L onto Thomas Mill Rd"},
+    {"num": 26, "dist": 36.1, "note": "End of route"}
+  ]
+}
