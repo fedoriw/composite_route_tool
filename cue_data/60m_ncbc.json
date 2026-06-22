@@ -1,0 +1,168 @@
+{
+  "route": "60m",
+  "title": "60m",
+  "total_miles": 61.1,
+  "entries": [
+    {
+      "num": 1,
+      "dist": 0.0,
+      "note": "Turn left onto New Hill Holleman Rd"
+    },
+    {
+      "num": 2,
+      "dist": 2.3,
+      "note": "Continue onto New Hill Olive Chapel Rd"
+    },
+    {
+      "num": 3,
+      "dist": 5.4,
+      "note": "Turn left onto Tody Goodwin Rd"
+    },
+    {
+      "num": 4,
+      "dist": 8.8,
+      "note": "Turn right onto Beaver Creek Rd"
+    },
+    {
+      "num": 5,
+      "dist": 10.1,
+      "note": "Rest Stop #1 - Refuel Exxon (formerly known as Wilsonville)",
+      "rest_stop": true,
+      "rest_stop_label": "Rest Stop #1: Refuel Exxon (formerly known as Wilsonville)"
+    },
+    {
+      "num": 6,
+      "dist": 10.1,
+      "note": "Continue onto Farrington Rd"
+    },
+    {
+      "num": 7,
+      "dist": 14.8,
+      "note": "Continue onto Farrington Point Rd"
+    },
+    {
+      "num": 8,
+      "dist": 16.2,
+      "note": "Turn left onto Lystra Rd"
+    },
+    {
+      "num": 9,
+      "dist": 20.8,
+      "note": "Turn right onto US-15 N/US-501 N"
+    },
+    {
+      "num": 10,
+      "dist": 21.7,
+      "note": "Turn left onto Manns Chapel Rd"
+    },
+    {
+      "num": 11,
+      "dist": 24.8,
+      "note": "Turn right onto Tobacco Rd"
+    },
+    {
+      "num": 12,
+      "dist": 26.1,
+      "note": "Turn left onto Lamont Norwood Rd"
+    },
+    {
+      "num": 13,
+      "dist": 28.1,
+      "note": "Turn right onto Jones Ferry Rd"
+    },
+    {
+      "num": 14,
+      "dist": 29.1,
+      "note": "Turn left onto Crawford Dairy Rd"
+    },
+    {
+      "num": 15,
+      "dist": 29.1,
+      "note": "Rest Stop #2 Frosty's/Aiden's Trading Post",
+      "rest_stop": true,
+      "rest_stop_label": "Rest Stop #2: Frosty's/Aiden's Trading Post"
+    },
+    {
+      "num": 16,
+      "dist": 30.6,
+      "note": "Turn left onto Chicken Bridge Rd"
+    },
+    {
+      "num": 17,
+      "dist": 30.9,
+      "note": "Turn left onto River Rd"
+    },
+    {
+      "num": 18,
+      "dist": 33.7,
+      "note": "Turn right onto Hamlets Chapel Rd"
+    },
+    {
+      "num": 19,
+      "dist": 35.8,
+      "note": "Turn right onto Moore Mountain Rd"
+    },
+    {
+      "num": 20,
+      "dist": 37.7,
+      "note": "Continue onto Durham Eubanks Rd"
+    },
+    {
+      "num": 21,
+      "dist": 38.0,
+      "note": "Turn left onto Bynum Rd"
+    },
+    {
+      "num": 22,
+      "dist": 38.6,
+      "note": "Turn right onto Bynum Ridge Rd"
+    },
+    {
+      "num": 23,
+      "dist": 41.1,
+      "note": "Turn right onto Mt Gilead Church Rd"
+    },
+    {
+      "num": 24,
+      "dist": 43.5,
+      "note": "Turn left onto US-64 E"
+    },
+    {
+      "num": 25,
+      "dist": 48.3,
+      "note": "Turn right onto Beaver Creek Rd"
+    },
+    {
+      "num": 26,
+      "dist": 48.3,
+      "note": "Rest Stop #1 - Refuel Exxon (formerly known as Wilsonville)",
+      "rest_stop": true,
+      "rest_stop_label": "Rest Stop #1: Refuel Exxon (formerly known as Wilsonville)"
+    },
+    {
+      "num": 27,
+      "dist": 55.2,
+      "note": "Continue onto State Rd 1963"
+    },
+    {
+      "num": 28,
+      "dist": 55.2,
+      "note": "Turn left onto U.S. Bicycle Rte 1"
+    },
+    {
+      "num": 29,
+      "dist": 57.0,
+      "note": "Turn right onto Shearon Harris Rd"
+    },
+    {
+      "num": 30,
+      "dist": 60.8,
+      "note": "Turn right onto New Hill Holleman Rd"
+    },
+    {
+      "num": 31,
+      "dist": 61.1,
+      "note": "Turn right"
+    }
+  ]
+}

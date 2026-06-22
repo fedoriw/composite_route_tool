@@ -1,0 +1,101 @@
+{
+  "route": "41m",
+  "title": "41m",
+  "total_miles": 40.8,
+  "entries": [
+    {
+      "num": 1,
+      "dist": 0.0,
+      "note": "Turn left onto New Hill Holleman Rd"
+    },
+    {
+      "num": 2,
+      "dist": 2.3,
+      "note": "Continue onto New Hill Olive Chapel Rd"
+    },
+    {
+      "num": 3,
+      "dist": 5.5,
+      "note": "Turn left onto Tody Goodwin Rd"
+    },
+    {
+      "num": 4,
+      "dist": 8.8,
+      "note": "Turn right onto Beaver Creek Rd"
+    },
+    {
+      "num": 5,
+      "dist": 10.1,
+      "note": "Rest Stop #1 - Refuel Exxon (formerly Wilsonville)",
+      "rest_stop": true,
+      "rest_stop_label": "Rest Stop #1: Refuel Exxon (formerly Wilsonville)"
+    },
+    {
+      "num": 6,
+      "dist": 10.1,
+      "note": "Continue onto Farrington Rd"
+    },
+    {
+      "num": 7,
+      "dist": 14.8,
+      "note": "Continue onto Farrington Point Rd"
+    },
+    {
+      "num": 8,
+      "dist": 16.2,
+      "note": "Turn left onto Lystra Rd"
+    },
+    {
+      "num": 9,
+      "dist": 17.2,
+      "note": "Turn left onto Jack Bennett Rd"
+    },
+    {
+      "num": 10,
+      "dist": 18.0,
+      "note": "Turn left onto Big Woods Rd"
+    },
+    {
+      "num": 11,
+      "dist": 24.4,
+      "note": "Turn right onto US-64 W"
+    },
+    {
+      "num": 12,
+      "dist": 24.5,
+      "note": "Sharp left onto US-64"
+    },
+    {
+      "num": 13,
+      "dist": 27.9,
+      "note": "Turn right onto Beaver Creek Rd"
+    },
+    {
+      "num": 14,
+      "dist": 27.9,
+      "note": "Rest Stop #1 - Refuel Exxon (formerly Wilsonville)",
+      "rest_stop": true,
+      "rest_stop_label": "Rest Stop #1: Refuel Exxon (formerly Wilsonville)"
+    },
+    {
+      "num": 15,
+      "dist": 34.8,
+      "note": "Turn left onto U.S. Bicycle Rte 1"
+    },
+    {
+      "num": 16,
+      "dist": 36.7,
+      "note": "Turn right onto Shearon Harris Rd"
+    },
+    {
+      "num": 17,
+      "dist": 40.5,
+      "note": "Turn right onto New Hill Holleman Rd"
+    },
+    {
+      "num": 18,
+      "dist": 40.8,
+      "note": "Turn right"
+    }
+  ]
+}
