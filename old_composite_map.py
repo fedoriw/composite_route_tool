@@ -733,21 +733,6 @@ def _draw_info_table(ax, rows, row_routes, colors, fontsize=13):
     return table
 
 
-def _pick_legend_corner(lon_all, lat_all, route_pts_list):
-    """Return the matplotlib legend loc string for the corner with the
-    fewest route points — i.e. the least visually busy corner."""
-    lon_mid = (lon_all.min() + lon_all.max()) / 2
-    lat_mid = (lat_all.min() + lat_all.max()) / 2
-    all_pts = np.concatenate(route_pts_list, axis=0)
-    counts = {
-        'lower left':  np.sum((all_pts[:,0] < lon_mid) & (all_pts[:,1] < lat_mid)),
-        'lower right': np.sum((all_pts[:,0] > lon_mid) & (all_pts[:,1] < lat_mid)),
-        'upper left':  np.sum((all_pts[:,0] < lon_mid) & (all_pts[:,1] > lat_mid)),
-        'upper right': np.sum((all_pts[:,0] > lon_mid) & (all_pts[:,1] > lat_mid)),
-    }
-    return min(counts, key=counts.get)
-
-
 def render_composite(routes, colors, title, output_path,
                       offset_m=50.0,
                       arrow_spacing_m=4000.0,
@@ -762,8 +747,7 @@ def render_composite(routes, colors, title, output_path,
                       start_finish_cluster_m=100.0,
                       cue_sheets=None,
                       rest_stop_cluster_m=200.0,
-                      logo_path=None,
-                      legend_loc='auto'):
+                      logo_path=None):
     """routes: dict of label -> Nx2 array of (lon, lat).
     colors: dict of label -> hex color string.
 
@@ -852,10 +836,7 @@ def render_composite(routes, colors, title, output_path,
     if hasattr(ax, '_sf_legend_patch'):
         handles.append(ax._sf_legend_patch)
         lbls.append('Start/Finish')
-    if legend_loc == 'auto':
-        legend_loc = _pick_legend_corner(lon_all, lat_all,
-                                          [routes[k] for k in routes.keys()])
-    ax.legend(handles, lbls, loc=legend_loc, fontsize=16, markerscale=1.5, framealpha=0.9)
+    ax.legend(handles, lbls, loc='lower left', fontsize=16, markerscale=1.5, framealpha=0.9)
 
     # Title and logo — placed in the table axis (or as figure suptitle if
     # no table). Using the table axis keeps them visually above the map.
@@ -986,7 +967,7 @@ def main():
                          help='Label for each route (default: use GPX track name)')
     parser.add_argument('--title', default='Composite Route Map',
                          help='Map title')
-    parser.add_argument('--output', default='output/composite_map.pdf',
+    parser.add_argument('--output', default='composite_map.pdf',
                          help='Output PDF path')
     parser.add_argument('--offset-m', type=float, default=50.0,
                          help='Sideways offset between parallel routes, in meters '
@@ -1030,18 +1011,11 @@ def main():
                               'Google Maps screenshot of the same area in an '
                               'image editor. The bounding box is printed to '
                               'the console.')
-                    # (leave default as None, but document that output/ is recommended)
     parser.add_argument('--cue-sheets', nargs='+', default=None,
                          help='Cue sheet JSON files (one per route, same '
                               'order as gpx_files). If provided: waypoint '
                               'cross-streets are looked up, and rest-stop '
                               'markers are added to the map.')
-    parser.add_argument('--legend', default='auto',
-                         choices=['auto', 'lower left', 'lower right',
-                                  'upper left', 'upper right'],
-                         help='Legend position (default: auto - picks the '
-                              'corner with the fewest route points so it '
-                              'is least likely to overlap the routes)')
     parser.add_argument('--logo', default=None,
                          help='Path to a logo image (PNG or SVG) to place '
                               'in the top-left corner of the map. SVG is '
@@ -1091,7 +1065,6 @@ def main():
         start_finish_cluster_m=args.start_finish_cluster_m,
         cue_sheets=cue_sheets,
         logo_path=args.logo,
-        legend_loc=args.legend,
     )
 
     print(f"\nSaved composite map to {args.output}")

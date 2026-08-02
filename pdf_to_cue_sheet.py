@@ -53,10 +53,16 @@ DIRECTION_ARROWS = '←→↑↓↗↘↙↖'
 
 def extract_layout_text(pdf_path):
     """Run pdftotext -layout and return the raw text."""
-    result = subprocess.run(
-        ['pdftotext', '-layout', pdf_path, '-'],
-        capture_output=True, text=True, check=True
-    )
+    try:
+        result = subprocess.run(
+            ['pdftotext', '-layout', pdf_path, '-'],
+            capture_output=True, text=True, check=True
+        )
+    except FileNotFoundError:
+        print("Error: 'pdftotext' not found. Install it with:\n"
+              "    brew install poppler\n"
+              "then re-run this script.", file=sys.stderr)
+        sys.exit(1)
     return result.stdout
 
 

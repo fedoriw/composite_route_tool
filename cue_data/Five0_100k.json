@@ -1,0 +1,252 @@
+{
+  "route": "100K",
+  "title": "100K",
+  "total_miles": 59.7,
+  "entries": [
+    {
+      "num": 1,
+      "dist": 0.2,
+      "note": "Turn left onto Battle Bridge Rd"
+    },
+    {
+      "num": 2,
+      "dist": 0.5,
+      "note": "Turn right onto Brown Field Rd"
+    },
+    {
+      "num": 3,
+      "dist": 1.4,
+      "note": "Turn right onto Old Baucom Rd"
+    },
+    {
+      "num": 4,
+      "dist": 2.8,
+      "note": "Turn left onto Rock Quarry Rd"
+    },
+    {
+      "num": 5,
+      "dist": 3.7,
+      "note": "Turn right onto E Garner Rd"
+    },
+    {
+      "num": 6,
+      "dist": 5.1,
+      "note": "Turn right onto Auburn Knightdale Rd"
+    },
+    {
+      "num": 7,
+      "dist": 10.4,
+      "note": "Turn right onto Grasshopper Rd"
+    },
+    {
+      "num": 8,
+      "dist": 10.6,
+      "note": "Turn left onto Bethlehem Rd"
+    },
+    {
+      "num": 9,
+      "dist": 13.8,
+      "note": "Continue onto S First Ave"
+    },
+    {
+      "num": 10,
+      "dist": 14.1,
+      "note": "Turn left onto Second Ave"
+    },
+    {
+      "num": 11,
+      "dist": 14.1,
+      "note": "Turn right onto Maple St"
+    },
+    {
+      "num": 12,
+      "dist": 14.6,
+      "note": "Turn right onto Sycamore St"
+    },
+    {
+      "num": 13,
+      "dist": 14.7,
+      "note": "Turn left onto N First Ave"
+    },
+    {
+      "num": 14,
+      "dist": 15.0,
+      "note": "Continue onto Old Knight Rd"
+    },
+    {
+      "num": 15,
+      "dist": 15.4,
+      "note": "At the traffic circle, continue straight to stay on Old"
+    },
+    {
+      "num": 16,
+      "dist": 16.8,
+      "note": "Knight Rd Knight Rd 16.5 Slight right onto Horton Rd"
+    },
+    {
+      "num": 17,
+      "dist": 18.0,
+      "note": "Turn left onto Marks Creek Rd"
+    },
+    {
+      "num": 18,
+      "dist": 18.4,
+      "note": "Slight left onto Rolesville Rd"
+    },
+    {
+      "num": 19,
+      "dist": 19.2,
+      "note": "Turn right onto Davistown Rd"
+    },
+    {
+      "num": 20,
+      "dist": 20.2,
+      "note": "Turn left onto Riley Hill School Rd"
+    },
+    {
+      "num": 21,
+      "dist": 21.3,
+      "note": "Turn left onto Riley Hill Rd"
+    },
+    {
+      "num": 22,
+      "dist": 21.6,
+      "note": "Turn right onto Broughton Rd"
+    },
+    {
+      "num": 23,
+      "dist": 23.4,
+      "note": "Turn left onto Fowler Rd"
+    },
+    {
+      "num": 24,
+      "dist": 25.3,
+      "note": "Turn right onto Rolesville Rd"
+    },
+    {
+      "num": 25,
+      "dist": 25.5,
+      "note": "Continue onto E Young St"
+    },
+    {
+      "num": 26,
+      "dist": 26.1,
+      "note": "Turn right onto Quarry Rd"
+    },
+    {
+      "num": 27,
+      "dist": 28.8,
+      "note": "Turn left onto Mitchell Mill Rd"
+    },
+    {
+      "num": 28,
+      "dist": 29.7,
+      "note": "Turn right onto Pulley Town Rd"
+    },
+    {
+      "num": 29,
+      "dist": 32.0,
+      "note": "Continue onto Edgemont Rd"
+    },
+    {
+      "num": 30,
+      "dist": 36.7,
+      "note": "Turn right onto Robertson Pond Rd"
+    },
+    {
+      "num": 31,
+      "dist": 38.4,
+      "note": "Turn left onto Rolesville Rd"
+    },
+    {
+      "num": 32,
+      "dist": 39.4,
+      "note": "Continue onto Eagle Rock Rd"
+    },
+    {
+      "num": 33,
+      "dist": 40.4,
+      "note": "Turn right onto Eagle Rock Rd/Knightdale-Eagle Rock"
+    },
+    {
+      "num": 34,
+      "dist": 42.7,
+      "note": "Rd Turn right onto Wendell Falls Pkwy"
+    },
+    {
+      "num": 35,
+      "dist": 42.9,
+      "note": "Continue onto Knightdale-Eagle Rock Rd"
+    },
+    {
+      "num": 36,
+      "dist": 43.8,
+      "note": "Continue onto SR 2500/Robertson St"
+    },
+    {
+      "num": 37,
+      "dist": 44.9,
+      "note": "Turn right onto N First Ave"
+    },
+    {
+      "num": 38,
+      "dist": 45.2,
+      "note": "Turn left onto Sycamore St"
+    },
+    {
+      "num": 39,
+      "dist": 45.3,
+      "note": "Turn left onto Second Ave"
+    },
+    {
+      "num": 40,
+      "dist": 45.8,
+      "note": "Turn right onto N First Ave"
+    },
+    {
+      "num": 41,
+      "dist": 46.1,
+      "note": "Continue onto Bethlehem Rd"
+    },
+    {
+      "num": 42,
+      "dist": 49.3,
+      "note": "Turn right onto Grasshopper Rd"
+    },
+    {
+      "num": 43,
+      "dist": 49.5,
+      "note": "Turn left onto Auburn Knightdale Rd"
+    },
+    {
+      "num": 44,
+      "dist": 54.8,
+      "note": "Turn left onto E Garner Rd"
+    },
+    {
+      "num": 45,
+      "dist": 56.2,
+      "note": "Sharp left onto Rock Quarry Rd"
+    },
+    {
+      "num": 46,
+      "dist": 57.1,
+      "note": "Turn right onto Baucom Rd/Old Baucom Rd"
+    },
+    {
+      "num": 47,
+      "dist": 58.5,
+      "note": "Turn left onto Brown Field Rd"
+    },
+    {
+      "num": 48,
+      "dist": 59.5,
+      "note": "Turn left onto Battle Bridge Rd"
+    },
+    {
+      "num": 49,
+      "dist": 59.7,
+      "note": "Turn right onto Law Enforcement Drive"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "route": "50K",
+  "title": "50K",
+  "total_miles": 31.1,
+  "entries": [
+    {
+      "num": 1,
+      "dist": 0.1,
+      "note": "Turn left onto Battle Bridge Rd"
+    },
+    {
+      "num": 2,
+      "dist": 0.4,
+      "note": "Turn right onto Brown Field Rd"
+    },
+    {
+      "num": 3,
+      "dist": 1.3,
+      "note": "Turn right onto Old Baucom Rd"
+    },
+    {
+      "num": 4,
+      "dist": 2.7,
+      "note": "Turn left onto Rock Quarry Rd"
+    },
+    {
+      "num": 5,
+      "dist": 3.6,
+      "note": "Turn right onto E Garner Rd"
+    },
+    {
+      "num": 6,
+      "dist": 5.0,
+      "note": "Turn right onto Auburn Knightdale Rd"
+    },
+    {
+      "num": 7,
+      "dist": 10.3,
+      "note": "Turn right onto Grasshopper Rd"
+    },
+    {
+      "num": 8,
+      "dist": 10.5,
+      "note": "Turn left onto Bethlehem Rd"
+    },
+    {
+      "num": 9,
+      "dist": 13.7,
+      "note": "Continue onto S First Ave"
+    },
+    {
+      "num": 10,
+      "dist": 14.0,
+      "note": "Turn left onto 2nd Avenue"
+    },
+    {
+      "num": 11,
+      "dist": 14.3,
+      "note": "Continue onto 2nd Avenue"
+    },
+    {
+      "num": 12,
+      "dist": 14.5,
+      "note": "Continue onto 2nd Avenue"
+    },
+    {
+      "num": 13,
+      "dist": 14.6,
+      "note": "Turn right onto North 1st Avenue"
+    },
+    {
+      "num": 14,
+      "dist": 14.7,
+      "note": "Continue onto North 1st Avenue"
+    },
+    {
+      "num": 15,
+      "dist": 14.9,
+      "note": "Turn left onto Robertson Street"
+    },
+    {
+      "num": 16,
+      "dist": 15.0,
+      "note": "Turn right onto Sallinger Street"
+    },
+    {
+      "num": 17,
+      "dist": 15.1,
+      "note": "Continue onto Sallinger Street"
+    },
+    {
+      "num": 18,
+      "dist": 15.2,
+      "note": "Continue onto Sallinger Street"
+    },
+    {
+      "num": 19,
+      "dist": 15.3,
+      "note": "Turn right onto Flowers Street"
+    },
+    {
+      "num": 20,
+      "dist": 15.4,
+      "note": "Turn left onto Flowers Street"
+    },
+    {
+      "num": 21,
+      "dist": 15.4,
+      "note": "Turn left onto Fayetteville Street"
+    },
+    {
+      "num": 22,
+      "dist": 15.9,
+      "note": "Turn right onto Rainier Lake Drive"
+    },
+    {
+      "num": 23,
+      "dist": 16.3,
+      "note": "Turn right onto Smithfield Road"
+    },
+    {
+      "num": 24,
+      "dist": 16.7,
+      "note": "Continue onto South Smithfield Road"
+    },
+    {
+      "num": 25,
+      "dist": 17.2,
+      "note": "Turn left onto S First Ave"
+    },
+    {
+      "num": 26,
+      "dist": 17.5,
+      "note": "Continue onto Bethlehem Rd"
+    },
+    {
+      "num": 27,
+      "dist": 20.6,
+      "note": "Turn right onto Grasshopper Rd"
+    },
+    {
+      "num": 28,
+      "dist": 20.8,
+      "note": "Turn left onto Auburn Knightdale Rd"
+    },
+    {
+      "num": 29,
+      "dist": 26.1,
+      "note": "Turn left onto E Garner Rd"
+    },
+    {
+      "num": 30,
+      "dist": 27.5,
+      "note": "Sharp left onto Rock Quarry Rd"
+    },
+    {
+      "num": 31,
+      "dist": 28.5,
+      "note": "Turn right onto Baucom Rd/Old Baucom Rd"
+    },
+    {
+      "num": 32,
+      "dist": 29.9,
+      "note": "Turn left onto Brown Field Rd"
+    },
+    {
+      "num": 33,
+      "dist": 30.8,
+      "note": "Turn left onto Battle Bridge Rd"
+    },
+    {
+      "num": 34,
+      "dist": 31.1,
+      "note": "Turn right onto Law Enforcement Drive"
+    }
+  ]
+}

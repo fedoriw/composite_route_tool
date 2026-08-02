@@ -3,6 +3,9 @@ scipy
 matplotlib
 Pillow
 
+# System dependency (not pip - install via brew):
+# brew install poppler   <-- provides pdftotext, needed for pdf_to_cue_sheet.py
+
 # Optional: street-map background (requires internet when generating map)
 # pip install contextily
 

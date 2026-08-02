@@ -40,6 +40,10 @@ tell at a glance where routes run together.
 Mac's system Python is protected, so use a virtual environment:
 
 ```bash
+# Install poppler (provides pdftotext, needed for cue sheet conversion)
+brew install poppler
+
+# Create and activate the Python venv
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -171,7 +175,7 @@ Num / Dist / Prev / Type / Note / Next table format, `pdf_to_cue_sheet.py`
 can convert it to the JSON format above automatically:
 
 ```bash
-python3 pdf_to_cue_sheet.py "60K Cue Sheet.pdf" --route 60K -o cue_data/60K.json
+python3 pdf_to_cue_sheet.py "cue_data/pdfs/Cue2026Five050K.pdf" --route "Five0 50K" -o cue_data/Five0_50k.json
 ```
 
 This also detects rest stops (any cue containing "Rest Stop") and builds a
